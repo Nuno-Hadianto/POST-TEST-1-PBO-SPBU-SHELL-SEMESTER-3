@@ -58,7 +58,7 @@ nama: nama SPBU
 
 alamat: alamat SPBU
 
-Kelas ini memiliki konstruktor yang mengambil id, nama, dan alamat sebagai parameter. Kelas ini juga memiliki metode getter dan setter untuk setiap properti.
+Kelas ini memiliki konstruktor yang mengambil id, nama, dan alamat sebagai parameter serta kelas ini juga memiliki metode getter dan setter untuk setiap properti.
 
 Metode displayInfo() digunakan untuk menampilkan informasi SPBU.
 ```
@@ -124,12 +124,15 @@ public class Pengelola {
 Pengelola.java
 Kelas ini mewakili pengelola entitas SPBU. Kelas ini memiliki tiga properti:
 
--id: identifikasi unik untuk pengelola
--nama: nama pengelola
--daftarSPBU: daftar entitas SPBU yang dikelola oleh pengelola
-Kelas ini memiliki konstruktor yang mengambil id dan nama sebagai parameter. Kelas ini juga memiliki metode getter dan setter untuk setiap properti.
+id: identifikasi unik untuk pengelola
 
-Metode tambahSPBU(SPBU spbu) digunakan untuk menambahkan SPBU baru ke daftar SPBU yang dikelola. Metode hapusSPBU(SPBU spbu) digunakan untuk menghapus SPBU dari daftar SPBU yang dikelola. Metode displayDaftarSPBU() digunakan untuk menampilkan daftar SPBU yang dikelola.
+nama: nama pengelola
+
+daftarSPBU: daftar entitas SPBU yang dikelola oleh pengelola
+
+Kelas ini memiliki konstruktor yang mengambil id dan nama sebagai parameter serta kelas ini juga memiliki metode getter dan setter untuk setiap properti.
+
+Metode tambahSPBU(SPBU spbu) digunakan untuk menambahkan SPBU baru ke daftar SPBU yang dikelola, Metode hapusSPBU(SPBU spbu) digunakan untuk menghapus SPBU dari daftar SPBU yang dikelola, dan Metode displayDaftarSPBU() digunakan untuk menampilkan daftar SPBU yang dikelola.
 ```
 package com.spbu.main;
 
@@ -165,7 +168,7 @@ public class Main {
 Paket 2: com.spbu.main
 
 Main.java
-Kelas ini adalah titik masuk program. Kelas ini memiliki metode main() yang membuat instance baru dari kelas Pengelola dan menambahkan dua entitas SPBU baru ke daftar SPBU yang dikelola. Kemudian, program menampilkan daftar SPBU yang dikelola, menghapus salah satu entitas SPBU, dan menampilkan daftar SPBU yang dikelola yang telah diperbarui.
+Kelas ini adalah titik masuk program, memiliki metode main() yang membuat instance baru dari kelas Pengelola dan menambahkan dua entitas SPBU baru ke daftar SPBU yang dikelola. Kemudian, program menampilkan daftar SPBU yang dikelola, menghapus salah satu entitas SPBU, dan menampilkan daftar SPBU yang dikelola yang telah diperbarui.
 
 Alur Program
 
